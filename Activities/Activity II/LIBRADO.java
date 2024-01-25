@@ -8,6 +8,7 @@ public class LIBRADO {
         int fnum = scanner.nextInt();
         System.out.println("Enter your Second Number: ");
         int snum = scanner.nextInt();
+        
         int sum = fnum + snum;
         System.out.println("sum is = "+sum);
         int sub = fnum - snum;
