@@ -5,7 +5,7 @@ public class SABAS_ACTIVITY_6{
 
 int num;
 
-System.out.println("ENter your number");
+System.out.println("ENter number");
 num = sc.nextInt();
 int sum = 0;
 int i = 1;
