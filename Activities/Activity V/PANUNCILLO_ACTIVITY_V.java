@@ -6,7 +6,7 @@ public class PANUNCILLO_ACTIVITY_V{
         System.out.print("ENTER IMONG AGE");
         int age = sc.nextInt();
 
-        if(age<64 && age >18){
+        if(age<=64 && age >=18){
             System.out.println("ADULT");
         }else if(age<=17 && age >=12 ){
             System.out.println("TEEN");
