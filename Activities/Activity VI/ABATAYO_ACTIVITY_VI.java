@@ -1,13 +1,15 @@
 import java.util.Scanner;
 public class ABATAYO_ACTIVITY_VI { 
     public static void main(String []args) {
-       Scanner sc = Scanner(System.in);
+       Scanner sc = new  Scanner(System.in);
        
        System.out.print("Enter a countdown number: ");
        int counter = sc.nextInt();
-       int counter 2 = sc.nextlnt();
+       
+       int counter2= sc.nextInt();
+       
        while(counter <= 0)
-           counter--:
+           counter--;
            System.out.println(counter);
        }
 
