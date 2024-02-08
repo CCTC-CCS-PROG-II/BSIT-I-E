@@ -1,28 +1,28 @@
-import java.util.Scanner;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class BANDOLON_ACTIVITY_VI {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        final int initialCountdown = 5;
+        final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
-        System.out.print("Enter the initial countdown value: ");
-        int countdownSeconds = scanner.nextInt();
+        Runnable countdownTask = new Runnable() {
+            int currentCountdown = initialCountdown;
 
-        Timer timer = new Timer();
-
-        timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
-                if (countdownSeconds == 0) {
-                    timer.cancel(); // Stop the timer
-                    System.out.println("Time's up!");
+                if (currentCountdown >= 0) {
+                    System.out.println(currentCountdown);
                 } else {
-                    System.out.println(countdownSeconds);
-                    countdownSeconds --;
+                    System.out.println("Time's up!");
+                    scheduler.shutdown();
                 }
+                currentCountdown--;
             }
-        }, 0, 1000); // Schedule the task to run every second (1000 milliseconds)
+        };
+
+        scheduler.scheduleAtFixedRate(countdownTask, 0, 1, TimeUnit.SECONDS);
     }
 }
