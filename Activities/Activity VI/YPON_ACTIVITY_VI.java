@@ -14,7 +14,7 @@ public class YPON_ACTIVITY_VI {
         while(time >= 0){
 
             System.out.println(time);
-             time --;
+            time --;
         }
         
 
