@@ -9,7 +9,7 @@ public class CANTEBEROS_ACTIVITY_6 {
         int time = sc nextInt();
 
         while (time >= 0) {
-            Systen.out.print
+            Systen.out.print(time);
         }
     }
 }
