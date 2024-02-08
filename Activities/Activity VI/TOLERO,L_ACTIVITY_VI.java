@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TOLERO_ACTIVITY_IV{
+public class TOLERO,L_ACTIVITY_IV{
     public static void main (String []args);
 
     Scanner sc = new Scanner(System.in);
