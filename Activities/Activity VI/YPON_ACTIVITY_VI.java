@@ -12,9 +12,9 @@ public class YPON_ACTIVITY_VI {
 
 
         while(time >= 0){
-            time --;
 
             System.out.println(time);
+             time --;
         }
         
 
