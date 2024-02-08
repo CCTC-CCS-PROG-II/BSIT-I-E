@@ -10,9 +10,9 @@ public class PLARISAN_ACTIVITY_VI {
 
          while(time >= 0){
             time--;
-           
+            System.out.println(time);
+ 
          }
-         System.out.println(time);
 
     }
     
