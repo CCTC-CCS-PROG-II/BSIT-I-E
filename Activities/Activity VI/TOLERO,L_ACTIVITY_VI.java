@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PANUNCILLO_ACTIVITY_IV{
+public class TOLERO_ACTIVITY_IV{
     public static void main (String []args);
 
     Scanner sc = new Scanner(System.in);
