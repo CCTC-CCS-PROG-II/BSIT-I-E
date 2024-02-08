@@ -7,8 +7,8 @@ public class LIBRADO_ACTIVITY_6 {
      System.out.println("Enter the time in seconds: ");
      int time = scanner.nextInt();
      while (time >=0){
-         time--;
         System.out.println(time);
+         time--;
      }
 
      
