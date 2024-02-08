@@ -11,10 +11,8 @@ public class ABATAYO_ACTIVITY_VI {
        while(counter <= 0)
            counter--;
            System.out.println(counter);
-       }
-
     }
-   
-} 
+}  
+
 
   
