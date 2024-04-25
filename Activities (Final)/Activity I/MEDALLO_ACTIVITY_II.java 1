@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class MEDALLO_ACTIVITY_II{
+    static int lenght(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the lenght of the rectangle:");
+        return sc.nextInt();
+
+    }
+   static int width(){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the width of the rectangle:");
+    
+   }
