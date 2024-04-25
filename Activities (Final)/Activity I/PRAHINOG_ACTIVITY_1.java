@@ -15,4 +15,4 @@ public class PRAHINOG_ACTIVITY_1{
      System.out.println("Area of the rectangle;" + result);                                                        
        }
     }
-    S
+    
