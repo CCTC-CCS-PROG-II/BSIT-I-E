@@ -12,7 +12,7 @@ public class CANTEBEROS_ACTIVITY_I {
         System.out.println("Enter the width of the rectangle:");
         double width = scanner.nextDouble();
 
-        /
+        
         double area = calculateArea(length, width);
 
         System.out.println("Area: " + area);
