@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sungkip_ActivityII {
+public class SUNGIKP_ACTIVITYII{
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
