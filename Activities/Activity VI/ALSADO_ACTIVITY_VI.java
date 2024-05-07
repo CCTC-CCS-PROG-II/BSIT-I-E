@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ALSADO_ACTIVITY_6 {
+public class ALSADO_ACTIVITY_VI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
