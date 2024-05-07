@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ALSADO_ACTIVITY_2{
+public class ALSADO_ACTIVITY_II{
     public static void main(String[] args){
 
         Scanner Burikatsiya = new Scanner(System.in);
