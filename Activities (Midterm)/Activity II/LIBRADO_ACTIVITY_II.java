@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LIBRADO_ACTIVITY_2 {
+public class LIBRADO_ACTIVITY_II {
         
                 public static void main(String[] args) {
                     Scanner sc = new Scanner(System.in);
