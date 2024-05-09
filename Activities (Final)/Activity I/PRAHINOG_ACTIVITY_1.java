@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PRAHINOG_ACTIVITY_2 {
+public class PRAHINOG_ACTIVITY_1 {
     public static double feettoinches(double feetvalue) {
         double inches = feetvalue * 12;
         System.out.println(inches);
