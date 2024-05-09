@@ -4,7 +4,7 @@ public class PRAHINOG_ACTIVITY_2 {
     public static double feettoinches(double feetvalue) {
         double inches = feetvalue * 12;
         System.out.println(inches);
-        return inches; // Added return statement
+        return inches;
     }
 
     public static void main(String[] args) {
