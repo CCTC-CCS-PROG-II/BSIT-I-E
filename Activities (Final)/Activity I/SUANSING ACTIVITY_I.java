@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Suansing_ActivityI {
+public class SUANSING_ActivityI {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
