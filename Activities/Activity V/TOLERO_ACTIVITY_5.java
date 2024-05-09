@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TOLERO_ACTIVITY_5 {
+public class TOLERO_ACTIVITY_V {
     
     public static void main(String[] args) {
         
