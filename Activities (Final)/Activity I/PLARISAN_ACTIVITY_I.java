@@ -15,4 +15,3 @@ public static void main(String[]args){
  System.out.println("Area of the rectangle;" + result);                                                        
    }
 }
-S
