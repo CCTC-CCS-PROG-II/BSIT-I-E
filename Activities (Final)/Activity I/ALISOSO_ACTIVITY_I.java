@@ -1,22 +1,17 @@
 import java.util.Scanner;
-public class ALISOSO_ACTIVITY_I{
-    public static void main(String [] args){
-
-    
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the length of the rectangle:");
-    double length = sc.nextDouble();
-    
-    System.out.println("Enter the width of the rectangle:");
-    double width = sc.nextDouble();
-
-    double area = calculateArea(length, width);
-    System.out.println("Area: " + area);
-    
-    scanner.close();
+public class PLARISAN_ACTIVITY_I {
+ static int lenght(){
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Enter the length of the rectangle:");
+    return sc.nextInt();
 }
-
-    public static double calculateArea(double length, double width);
-        return length * width;
-
+static int width(){
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Enter the width of the rectangle:");
+    return sc.nextInt();
+}
+public static void main(String[]args){
+   int result=lenght()*width();
+ System.out.println("Area of the rectangle;" + result);                                                        
+   }
 }
