@@ -1,25 +1,16 @@
 import java.util.Scanner;
 
-public class DIAZ_ACTIVITY_6 {
+public class DIAZ_VI {
     public static void main(String[] args) {
-        final int initialCountdown = 5;
-        final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+        Scanner scanner = new Scanner(System.in);
 
-        Runnable countdownTask = new Runnable() {
-            int currentCountdown = initialCountdown;
+     System.out.println("Enter the time in seconds: ");
+     int time = scanner.nextInt();
+     while (time >=0){
+        System.out.println(time);
+         time--;
+     }
 
-            @Override
-            public void run() {
-                if (currentCountdown >= 0) {
-                    System.out.println(currentCountdown);
-                } else {
-                    System.out.println("Time's up!");
-                    scheduler.shutdown();
-                }
-                currentCountdown--;
-            }
-        };
-
-        scheduler.scheduleAtFixedRate(countdownTask, 0, 1, TimeUnit.SECONDS);
+     
     }
 }
