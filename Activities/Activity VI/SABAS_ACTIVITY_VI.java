@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SABAS_ACTIVITY_6 {
+public class SABAS_ACTIVITY_VI{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
