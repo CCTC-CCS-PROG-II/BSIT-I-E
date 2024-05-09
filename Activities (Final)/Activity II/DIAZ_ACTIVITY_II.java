@@ -1,5 +1,5 @@
 import.java.util.Scanner;
-public class DIAZ_ACTIVITY_2 {
+public class DIAZ_ACTIVITY_II {
     static void feetToInches= (double feet){
         double res= feet*12;
          System.out.println("res");           
