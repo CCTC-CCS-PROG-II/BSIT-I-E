@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-    public class TOLERO_ACTIVITY_II {
+    public class TOLEROL_ACTIVITY_II {
 
        public static void main(String[] args) {
        Scanner input = new Scanner (System.in);
