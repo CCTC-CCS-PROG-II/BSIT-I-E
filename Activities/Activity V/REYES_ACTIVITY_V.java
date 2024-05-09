@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class REYES_ACTIVITY_5{
+public class REYES_ACTIVITY_V{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
 
