@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CANILLO_ACTIVITY_2 {
+public class CANILLO_ACTIVITY_II {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] scores = new int[10];
