@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LERI0_ACTIVITY_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
