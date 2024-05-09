@@ -1,15 +1,18 @@
 import java.util.Scanner;
-public class ALISOSO_ACTIVITY_VI{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a countdown number:");
-        int counter = sc.nextInt();
-        int counter2 = sc.nextInt();
-        
-        while(counter <= 0){
-            counter--;
-            System.out.println(counter);
-        }
+
+public class PLARISAN_ACTIVITY_VI {
+    public static void main(String[]args){
+        Scanner sc = new Scanner (System.in);
+        int time = 0;
+        System.out.println("Enter your time: ");
+         time = sc.nextInt();
+
+
+         while(time >= 0){
+            System.out.println(time);
+             time--;
+         }
 
     }
+    
 }
