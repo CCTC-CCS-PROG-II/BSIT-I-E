@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class REYES_ACTIVITY_4 {
+public class REYES_ACTIVITY_IV {
    
     public static void main (String []args){
 
