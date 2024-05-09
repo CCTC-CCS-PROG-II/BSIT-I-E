@@ -1,13 +1,15 @@
+import java.util.Scanner;
+
 public class PRAHINOG_ACTIVITY_2 {
-    public static double feettoinches(double feet){
-        double inches = feet * feet;
-        return inches;
-}
-public static void main(String[] args) {
-    double feetvalue = 10;
+    public static double feettoinches(double feetvalue) {
+        double inches = feetvalue * 12;
+        System.out.println(inches);
+        return inches; // Added return statement
+    }
 
-    double inchesvalue = feettoinches(feetvalue);
-    System.out.print(feetvalue + "feet is equal to" + inchesvalue + "inches");
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double num = sc.nextDouble();
+        feettoinches(num);
+    }
 }
-}
-
