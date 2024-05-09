@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prahinog_Activity_2 {
+public class PRAHINOG_ACTIVITY_2 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
