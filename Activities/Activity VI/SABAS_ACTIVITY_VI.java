@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SABAS_ACTIVITY_VI{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         
         System.out.println("Enter the number of seconds:");
         int seconds = scanner.nextInt();
