@@ -18,5 +18,4 @@ public class SUNGKIP_ACTIVITY_II {
      System.out.println("The ProduCt is :" + prod);
 
     }
-
 }
