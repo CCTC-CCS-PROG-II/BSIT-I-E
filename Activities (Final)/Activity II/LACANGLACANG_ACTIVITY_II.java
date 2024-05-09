@@ -12,3 +12,5 @@ public class LACANGLACANG_ACTIVITY_II{
         System.out.print("Enter a feet: ");
         double feet = sc.nextDouble();
         feetToInches(feet);
+    }
+}
