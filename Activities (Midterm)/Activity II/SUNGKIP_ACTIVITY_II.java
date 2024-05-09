@@ -1,7 +1,7 @@
 
  
   import java.util.Scanner;
-public class SUNGKIP_ACTIVITY_2 {
+public class SUNGKIP_ACTIVITY_II {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
