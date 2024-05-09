@@ -1,5 +1,5 @@
  import java.util.Scanner;
-    public class DIAZ_ACTIVITY_4 {
+    public class DIAZ_ACTIVITY_IV {
         public static void main(String[] args){
             Scanner scanner = new Scanner(System.in);
             System.out.println ("Enter a color");
