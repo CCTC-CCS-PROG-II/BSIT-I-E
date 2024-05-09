@@ -1,5 +1,5 @@
   import java.util.Scanner;
-  public class DIAZ_ACTIVITY_1{
+  public class DIAZ_ACTIVITY_I{
     static int lenght(){
       Scanner sc= new Scanner(System.in);
       System.out.print("Enter the length of the rectangle:");
