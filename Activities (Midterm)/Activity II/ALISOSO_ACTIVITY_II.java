@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
- public class PLARISAN_ACTIVITY_II{
+ public class ALISOSO_ACTIVITY_II{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
 
