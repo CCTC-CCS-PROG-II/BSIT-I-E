@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DIAZ_ACTIVITY_2 {
+public class DIAZ_ACTIVITY_II {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double[] scores = new double[10];
