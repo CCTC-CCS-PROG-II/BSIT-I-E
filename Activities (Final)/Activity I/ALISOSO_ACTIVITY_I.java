@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PLARISAN_ACTIVITY_I {
+public class ALISOSO_ACTIVITY_I {
  static int lenght(){
     Scanner sc= new Scanner(System.in);
     System.out.print("Enter the length of the rectangle:");
