@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class CURAYAG_ACTIVITY_V {
-  public static void main(Stirng []args) {
+  public static void main(String []args) {
     Scanner sc = new Scanner(System.in);
     int age;
     System.out.print("Enter your age: ");
