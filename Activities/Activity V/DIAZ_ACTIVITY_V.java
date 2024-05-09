@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DIAZ_ACTIVITY_5 {
+public class DIAZ_ACTIVITY_V {
     public static void main(String[] args) {
         Scanner sr = new Scanner(System.in);
         int age;
