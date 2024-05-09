@@ -1,13 +1,14 @@
 import java.util.Scanner;
 public class LACANGLACANG_ACTIVITY_II{
-    static void ft(double feet){
-         double res = feet * 12;
-         System.out.println("result : " + res); 
+
+         static void feetToInches(double feet) {
+        double result = feet * 12;
+        System.out.println("Result: " + result);
     }
-    public static void main(String []args){
+    
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a value of feet: ");
+       
+        System.out.print("Enter a feet: ");
         double feet = sc.nextDouble();
-        ft(feet);
-    }
-}
+        feetToInches(feet);
