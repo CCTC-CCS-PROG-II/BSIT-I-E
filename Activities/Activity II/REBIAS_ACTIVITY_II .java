@@ -1,15 +1,23 @@
 import java.util.Scanner;
-public class numbers{
-    public static void main(String []args){
-        Scanner input = new Scanner(System.in);
+public class REBIAS_ACTIVITY_II {
+    
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
         
-        int num1
-        int num2
+        System.out.println("Enter your first Number: ");
+        int fnum = scanner.nextInt();
+        System.out.println("Enter your Second Number: ");
+        int snum = scanner.nextInt();
+        
+        int sum = fnum + snum;
+        System.out.println("sum is = "+sum);
+        int sub = fnum - snum;
+        System.out.println("Sub is = "+sub);
+        int prod = fnum * snum;
+        System.out.println("Prod is = "+prod);
 
-            Sytstem.out.println("Enter first number");
-       int num = scanner.nextline();
-            System.out.println("Enter seccond number");
-       int num = scanner.nextlne();
-       int num = num1 + num2;
-            
+
+        
+
+    }
 }
