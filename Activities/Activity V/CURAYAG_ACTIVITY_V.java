@@ -4,7 +4,7 @@ public class CURAYAG_ACTIVITY_V {
     Scanner sc = new Scanner(System.in);
     int age;
     System.out.print("Enter your age: ");
-    int age = sc.nextInt();
+    age = sc.nextInt();
 
     if (age <= 64 && age >= 18){
       System.out.println("Adult");
