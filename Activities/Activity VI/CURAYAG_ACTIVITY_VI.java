@@ -1,17 +1,17 @@
 import java.util.Scanner;
-public class CURAYAG_ACTIVITY_VI {
-  public static void main(String []args){
+public class CURAYAG_ACTIVITY_VI{
 
-    Scanner sc = new Scanner(System.in);
-    int num = sc.Scanner();
-
-    int s = 0;
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+      System.out.println("Enter countdown number: ");
+      int counter = sc.nextInt();
     
-    while(num <= 0)
-    sum += s;
-    s+= 2;
 
-    System.out.println(s);
+      while(counter>=0){
+        counter--;
+        System.out.println(counter);
+      }
 
-  }
+
+    }
 }
