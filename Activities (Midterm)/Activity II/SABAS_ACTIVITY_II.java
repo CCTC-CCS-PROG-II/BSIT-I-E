@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SABAS_ACTIVITY_2{
+public class SABAS_ACTIVITY_II{
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
         int[]scores = new int[10];
