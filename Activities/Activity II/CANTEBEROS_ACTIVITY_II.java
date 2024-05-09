@@ -1,16 +1,23 @@
 import java.util.Scanner;
-public class solve{
-    public static void main(String []args){
-        Scanner input = new Scanner(System.in);
+public class CANTEBEROS_ACTIVITY_II {
+    
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("Enter your first Number: ");
+        int fnum = scanner.nextInt();
+        System.out.println("Enter your Second Number: ");
+        int snum = scanner.nextInt();
+        
+        int sum = fnum + snum;
+        System.out.println("sum is = "+sum);
+        int sub = fnum - snum;
+        System.out.println("Sub is = "+sub);
+        int prod = fnum * snum;
+        System.out.println("Prod is = "+prod);
 
-        int num1
-        int num2
 
-        System.out.print("Enter first number: ");
-        int num = scanner.nextLine();
-        System.out.println("Enter second number: ");
-        int num = scanner.nextLine();
-        int num = num1 + num2;
+        
 
     }
 }
