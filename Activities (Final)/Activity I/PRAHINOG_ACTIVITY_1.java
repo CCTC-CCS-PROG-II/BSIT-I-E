@@ -1,18 +1,15 @@
 import java.util.Scanner;
-public class PRAHINOG_ACTIVITY_1{
-     static int lenght(){
-        Scanner sc= new Scanner(System.in);
-        System.out.print("Enter the length of the rectangle:");
-        return sc.nextInt();
+
+public class PRAHINOG_ACTIVITY_2 {
+    public static double feettoinches(double feetvalue) {
+        double inches = feetvalue * 12;
+        System.out.println(inches);
+        return inches; 
     }
-    static int width(){
-        Scanner sc= new Scanner(System.in);
-        System.out.print("Enter the width of the rectangle:");
-        return sc.nextInt();
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double num = sc.nextDouble();
+        feettoinches(num);
     }
-    public static void main(String[]args){
-       int result=lenght()*width();
-     System.out.println("Area of the rectangle;" + result);                                                        
-       }
-    }
-    
+}
